@@ -1,0 +1,13 @@
+.teacher-list {
+
+  &__header {
+    background-color: var(--color-primary-dark);
+  }
+
+  &__form {
+
+    @media screen and (max-width: 1123px) {
+      padding-bottom: 20px;
+    }
+  }
+}

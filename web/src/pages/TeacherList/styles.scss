@@ -1,0 +1,52 @@
+.teacher-list {
+  background-color: var(--color-neutral-200);
+}
+
+.search-teacher {
+  margin: 2.4rem auto 0;
+  max-width: 700px;
+
+  @media screen and (min-width: 1124px) {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    top: 18px;
+  }
+}
+
+.search-field {
+
+  & + & {
+
+    @media screen and (max-width: 1123px) {
+      margin-top: 1.2rem;
+    }
+  }
+}
+
+.search-label {
+  color: var(--color-light);
+  font-size: 1rem;
+}
+
+.search-entry {
+  background-color: var(--color-light);
+  border-radius: 5px;
+  font-size: .9rem;
+  height: 40px;
+  margin-top: 5px;
+  outline: none;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.teacher-list__main {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 20px 0;
+
+  @media screen and (min-width: 1124px) {
+    padding-top: 50px;
+  }
+}
